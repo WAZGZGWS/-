@@ -25,8 +25,8 @@
 补充说明：
 
 - 安装包的 `minSdk` 是 24（Android 7.0），但游戏用了 `async/await` 等语法，
-  **WebView 内核低于 Chrome 55 会直接白屏**；国产 ROM 的 Android 7 往往停在 Chrome 51，
-  所以实际按 **Android 8.0 起**算。
+  **WebView 内核低于 Chrome 55 时主脚本解析不了，菜单会点不动（看着像白屏）**；
+  国产 ROM 的 Android 7 往往停在 Chrome 51，所以实际按 **Android 8.0 起**算。
 - Android 8/9 如果从没更新过 WebView，也建议先去应用商店把
   「Android System WebView」或 Chrome 更新到最新版。
 - 联机要求两台设备在**同一个 Wi-Fi**；路由器开了「AP 隔离」会连不上。
