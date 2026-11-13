@@ -12,15 +12,18 @@
 
 **从 v0.6.5 起才会自动更新。v0.5 及更早版本没有内置更新器，必须手动装一次 v0.6.5。**
 
-1. 手机浏览器打开（国内直连 raw 常被墙，优先用镜像）：
+固定下载地址（永远指向最新版，转发这个链接就行）：
 
-   - 镜像：https://gh-proxy.com/https://raw.githubusercontent.com/WAZGZGWS/-/main/heti-debt-v0.6.5.apk
-   - 备用：https://ghproxy.net/https://raw.githubusercontent.com/WAZGZGWS/-/main/heti-debt-v0.6.5.apk
-   - 原始：https://github.com/WAZGZGWS/-/raw/main/heti-debt-v0.6.5.apk
+- 镜像：https://gh-proxy.com/https://raw.githubusercontent.com/WAZGZGWS/-/main/heti-debt-latest.apk
+- 备用：https://ghproxy.net/https://raw.githubusercontent.com/WAZGZGWS/-/main/heti-debt-latest.apk
+- 原始：https://github.com/WAZGZGWS/-/raw/main/heti-debt-latest.apk
 
-2. 下载 `heti-debt-v0.6.5.apk`，点开安装；第一次要允许「安装未知应用 / 未知来源」。
+步骤：
+
+1. 手机浏览器打开上面任意一个，下载 `heti-debt-latest.apk`（当前 v0.6.5，95,691 字节）；
+2. 点开安装，第一次要允许「安装未知应用 / 未知来源」；
 3. **直接覆盖安装，不要卸载**：包名和签名跟 v0.5 一样，存档和设置会保留。
-   只有提示「签名不一致」时才需要卸载旧版（会丢存档）。
+   只有提示「签名不一致」时才需要卸载旧版（会丢存档）；
 4. 装完打开，约 1 秒后会自动检查并更新到最新网页包；以后不用再管安装包。
 
 ## 最低要求的安卓手机
