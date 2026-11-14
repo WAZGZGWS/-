@@ -1,11 +1,14 @@
 {
   "app": "heti-debt",
-  "version": "0.7.2",
-  "web": 19,
-  "notes": [],
+  "version": "0.7.4",
+  "web": 21,
+  "notes": [
+    "AI 会算合体块代价，观战不再等死",
+    "更新说明会显示在首页"
+  ],
   "zip": {
-    "path": "web-19.zip",
-    "sha256": "bb9b2bc57afd636c0dec2c43ce5c564a238186aa0a3da80b2cd2870f4a408220",
-    "size": 70995
+    "path": "web-21.zip",
+    "sha256": "29b27ed1d6efe52d12bb469e747f7bb318c9273b86e36577a5bf49f284093522",
+    "size": 71708
   }
 }
