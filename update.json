@@ -1,13 +1,13 @@
 {
   "app": "heti-debt",
-  "version": "0.8.0",
-  "web": 41,
+  "version": "0.8.1",
+  "web": 42,
   "notes": [
-    "多人加蓝牙直连：两台安卓系统配对后无网 1v1；更新前提醒存档；覆盖安装不丢存档。"
+    "蓝牙连接修复：房主失败一次不再关房，状态/错误显示在抽屉；0.8.1 覆盖安装保留存档。"
   ],
   "zip": {
-    "path": "web-41.zip",
-    "sha256": "835811c64654b892d2cbea8f7132caffdd41728bad3e624ae85cbab9de5c36c8",
-    "size": 88155
+    "path": "web-42.zip",
+    "sha256": "24152f3819548e1d9a2ea9fe13c53abfccc70b8259ad3fcc5a2c51822ea51e62",
+    "size": 88585
   }
 }
