@@ -1,13 +1,13 @@
 {
   "app": "heti-debt",
   "version": "0.8.1",
-  "web": 43,
+  "web": 45,
   "notes": [
-    "玩法说明补全：主玩法/常驻连击/禅模式/经典/AI/蓝牙/独立存档/分数写法。"
+    "AI 加自动档：按设备算力选简单/普通/困难；多人记住上次房间/蓝牙对手，一键继续。"
   ],
   "zip": {
-    "path": "web-43.zip",
-    "sha256": "c1f44ea3a95cc0800f974a1d755c0c745a35aaec12157db90041b42bf96f5948",
-    "size": 88938
+    "path": "web-45.zip",
+    "sha256": "378e35fe635b9c4fed6c93c7b6fbb7437ad0adfbc9205375b7e49c6f30f71ed4",
+    "size": 91081
   }
 }
