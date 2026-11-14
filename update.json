@@ -1,13 +1,13 @@
 {
   "app": "heti-debt",
   "version": "0.7.8",
-  "web": 31,
+  "web": 32,
   "notes": [
-    "版本页改成一句话摘要+顶部固定返回；旧壳提示复制新版 APK 地址。"
+    "存档按单人/经典分开，可单项删除，保留清空全部；版本页一句话摘要+顶部返回。"
   ],
   "zip": {
-    "path": "web-31.zip",
-    "sha256": "dab60b91c64ce14b61f2468c5469ba6f3c3a1314aa35c0de191cde5e776b0f2a",
-    "size": 76330
+    "path": "web-32.zip",
+    "sha256": "e6a8a5b76d0388f1f8468fcd1661ef212c4ef22afec4a2e542b78b85fb94a8eb",
+    "size": 77792
   }
 }
