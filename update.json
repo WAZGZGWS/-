@@ -1,15 +1,11 @@
 {
   "app": "heti-debt",
-  "version": "0.9.5",
-  "web": 65,
-  "notes": [
-    "新增语言：简体中文/English/跟随系统",
-    "英文覆盖菜单、设置、模式提示、游戏 HUD、暂停/结算",
-    "教程/帮助/旧更新记录暂留中文"
-  ],
+  "version": "0.9.6",
+  "web": 66,
+  "notes": [],
   "zip": {
-    "path": "web-65.zip",
-    "sha256": "146d2ddd9d41d4950ae36dacfbc80162e0ca47601333277f689e16eb96983eb6",
-    "size": 106679
+    "path": "web-66.zip",
+    "sha256": "32a8c51c017166ada7f40920ed24f625c734decc1c6a6a06cad29046ad1c2bca",
+    "size": 116968
   }
 }
