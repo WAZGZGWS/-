@@ -1,11 +1,15 @@
 {
   "app": "heti-debt",
-  "version": "0.9.22",
-  "web": 82,
-  "notes": [],
+  "version": "0.9.23",
+  "web": 83,
+  "notes": [
+    "键位按当前屏幕算一次后固定",
+    "不再压到棋盘",
+    "屏幕没变就不动"
+  ],
   "zip": {
-    "path": "web-82.zip",
-    "sha256": "bff51e549b4c86c2d87cd2c8e6a7034c459608519f32e358373214b63e4d5c1e",
-    "size": 135158
+    "path": "web-83.zip",
+    "sha256": "9cb1e3a41f701a9ec5812fc3876bad2d21a8e8d99974305aaee555c5b5aea9ae",
+    "size": 137787
   }
 }
