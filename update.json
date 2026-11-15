@@ -1,15 +1,15 @@
 {
   "app": "heti-debt",
-  "version": "0.9.24",
-  "web": 84,
+  "version": "0.9.25",
+  "web": 85,
   "notes": [
     "一键速匹：局域网自动找房",
     "点一下就进，没房自动开",
-    "不再手输 IP"
+    "退出后不再残留旧房间"
   ],
   "zip": {
-    "path": "web-84.zip",
-    "sha256": "aa1ef94f068778f0b842f2e3b95f3b85c2ee810f9a5b9870d3c1933834de5afb",
-    "size": 140357
+    "path": "web-85.zip",
+    "sha256": "b9e8678a72e53e806a130cb0d2ae7a294bbd04e867f8915b9bf0ae3bc59ff294",
+    "size": 140485
   }
 }
