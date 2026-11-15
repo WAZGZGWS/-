@@ -6,7 +6,7 @@
 - 当前安装包：v0.9.25（versionCode 53，APK 181,767 字节）
 - 当前网页包：web 85
 - 更新清单：`update.json`
-- 更新包：`web-84.zip`
+- 更新包：`web-85.zip`
 
 ## 玩法亮点
 
