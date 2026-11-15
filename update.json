@@ -1,15 +1,15 @@
 {
   "app": "heti-debt",
-  "version": "0.9.23",
-  "web": 83,
+  "version": "0.9.24",
+  "web": 84,
   "notes": [
-    "键位按当前屏幕算一次后固定",
-    "不再压到棋盘",
-    "屏幕没变就不动"
+    "一键速匹：局域网自动找房",
+    "点一下就进，没房自动开",
+    "不再手输 IP"
   ],
   "zip": {
-    "path": "web-83.zip",
-    "sha256": "9cb1e3a41f701a9ec5812fc3876bad2d21a8e8d99974305aaee555c5b5aea9ae",
-    "size": 137787
+    "path": "web-84.zip",
+    "sha256": "aa1ef94f068778f0b842f2e3b95f3b85c2ee810f9a5b9870d3c1933834de5afb",
+    "size": 140357
   }
 }
