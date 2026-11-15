@@ -1,15 +1,11 @@
 {
   "app": "heti-debt",
-  "version": "0.9.26",
-  "web": 86,
-  "notes": [
-    "速配连上先进大厅",
-    "房主选玩法和规则",
-    "网络/蓝牙只留一条通道"
-  ],
+  "version": "0.9.27",
+  "web": 87,
+  "notes": [],
   "zip": {
-    "path": "web-86.zip",
-    "sha256": "05e028e84e6943efcb58945aa76d7fb9c76a5cb41581f06ff099e5851ab95b39",
-    "size": 142085
+    "path": "web-87.zip",
+    "sha256": "54ccbdefdc4f67f5e048a80d904e1476f86ee95edd64068fbd8dac931d8c1118",
+    "size": 143157
   }
 }
