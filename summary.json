@@ -15,7 +15,7 @@
   },
   "versions": {
     "game": "1.16",
-    "web_bundle": 110,
+    "web_bundle": 111,
     "apk_shell": "1.4",
     "apk_version_code": 57,
     "apk_bytes": 202247
