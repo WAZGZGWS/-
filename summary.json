@@ -2,7 +2,11 @@
   "name": "合体债",
   "name_en": "FUSION DEBT",
   "type": "android_game",
-  "genre": ["block_puzzle", "tetris_variant", "roguelite_progression"],
+  "genre": [
+    "block_puzzle",
+    "tetris_variant",
+    "roguelite_progression"
+  ],
   "one_liner": "一个 10×10 的俄罗斯方块变体：消灭的行会变成从底下顶回来的合体块，还不清的债带到下一局。",
   "platform": {
     "os": "Android",
@@ -14,8 +18,8 @@
     "ads": false
   },
   "versions": {
-    "game": "1.17",
-    "web_bundle": 112,
+    "game": "1.18",
+    "web_bundle": 113,
     "apk_shell": "1.4",
     "apk_version_code": 57,
     "apk_bytes": 202247
@@ -29,23 +33,70 @@
   ],
   "mechanics": {
     "board": "10×10",
-    "fusion_block": { "rows": 2, "holes": "1~2", "delay_ms": 2500, "warning_ms": 900 },
-    "debt": { "per_row": 100, "carry_between_runs": true, "cap_by_tier": { "easy": 600, "normal": 1200, "hard": 800 } },
-    "repay": { "max_per_clear_by_tier": { "easy": 600, "normal": 500, "hard": 300 } },
-    "grace_after_payoff": { "easy": "4~12 clears", "normal": "3~10 clears", "hard": "fixed 18 clears" },
-    "fusion_pacing_by_tier": { "easy": "every 3 clears", "normal": "every 2 clears", "hard": "every clear" },
-    "field_rotation": { "easy": false, "normal": "90° every 15s", "hard": "90° every 15s" },
-    "special_blocks": {
-      "arrow": "score ≥4000, then roughly every 12 pieces; clears one row/column, does not repay debt",
-      "letter": "from the 20th clear the fusion block becomes a letter block with different shape and fewer holes"
+    "fusion_block": {
+      "rows": 2,
+      "holes": "1~2",
+      "delay_ms": 2500,
+      "warning_ms": 900
     },
-    "modes": ["合体债（三档难度）", "经典玩法 10×20", "常驻·连击", "禅模式 5/10 分钟", "AI 决斗", "AI 对打观战", "局域网/蓝牙多人"],
+    "debt": {
+      "per_row": 100,
+      "carry_between_runs": true,
+      "cap_by_tier": {
+        "easy": 600,
+        "normal": 1200,
+        "hard": 800
+      }
+    },
+    "repay": {
+      "max_per_clear_by_tier": {
+        "easy": 600,
+        "normal": 500,
+        "hard": 300
+      }
+    },
+    "grace_after_payoff": {
+      "easy": "4~12 clears",
+      "normal": "3~10 clears",
+      "hard": "fixed 18 clears"
+    },
+    "fusion_pacing_by_tier": {
+      "easy": "every 3 clears",
+      "normal": "every 2 clears",
+      "hard": "every clear"
+    },
+    "field_rotation": {
+      "easy": false,
+      "normal": "90° every 15s",
+      "hard": "90° every 15s"
+    },
+    "special_blocks": {
+      "arrow": "score ≥4000, then roughly every 12 pieces; clears one row/column, does not repay debt"
+    },
+    "modes": [
+      "合体债（三档难度）",
+      "经典玩法 10×20",
+      "常驻·连击",
+      "常驻（连击 / 计时 5·10 分钟）",
+      "AI 决斗",
+      "AI 对打观战",
+      "局域网/蓝牙多人"
+    ],
     "saves": "每个模式/难度各有自动存档 + 3 个槽位，可导出/导入"
   },
   "difficulty_tiers": {
-    "easy": { "label": "轻松", "note": "学机制；不转场、常驻块最多 3 行" },
-    "normal": { "label": "普通", "note": "默认主玩法；场地每 15 秒转 90°" },
-    "hard": { "label": "困难", "note": "每次消行都顶块，最接近最早版本" }
+    "easy": {
+      "label": "轻松",
+      "note": "学机制；不转场、常驻块最多 3 行"
+    },
+    "normal": {
+      "label": "普通",
+      "note": "默认主玩法；场地每 15 秒转 90°"
+    },
+    "hard": {
+      "label": "困难",
+      "note": "每次消行都顶块，最接近最早版本"
+    }
   },
   "highlights": [
     "消行有代价：每次消行都会加高自己，形成「现在消还是再扛两行」的决策",
@@ -60,18 +111,66 @@
     "每档独立存档/最高分/欠账，复制一则结构化版本说明可直接喂给 AI"
   ],
   "recent_versions": [
-    { "v": "1.17", "date": "2026-11-16", "title": "键位再大一点 · 更新引导", "summary": "方向键再放大并往中间收（手机约53/平板66/大屏96）；版本页新增怎么更新引导" },
-    { "v": "1.16", "date": "2026-11-16", "title": "键位放大一档", "summary": "所有模式方向键/暂存键放大一点（手机48/平板56/大屏86），自动复核不压棋盘" },
-    { "v": "1.15", "date": "2026-11-16", "title": "复制里补上下文", "summary": "复制内容增加上一版和术语解释，模型可回答与上一版的差异" },
-    { "v": "1.14", "date": "2026-11-16", "title": "复制内容适合发给 AI", "summary": "结构化文本：先说明游戏是什么，字段一行一个，更新记录分小节" },
-    { "v": "1.13", "date": "2026-11-16", "title": "一键复制这一版", "summary": "版本页一键复制当前版本说明" },
-    { "v": "1.12", "date": "2026-11-16", "title": "复制改走系统剪贴板", "summary": "APK 1.4 加入系统剪贴板桥，复制不再依赖 WebView API" },
-    { "v": "1.10", "date": "2026-11-16", "title": "性能档", "summary": "按帧时间自动切换高/中/低画质" },
-    { "v": "1.9", "date": "2026-11-16", "title": "转场归难度", "summary": "场地旋转并入难度：轻松不转，普通/困难每 15 秒转 90°" },
-    { "v": "1.8", "date": "2026-11-16", "title": "入口收拢", "summary": "存档三档收成一个档位切换，设置 6 个入口并为 4 个" },
-    { "v": "1.7", "date": "2026-11-16", "title": "难度三档", "summary": "轻松/普通/困难，各一套存档、最高分与欠账" },
-    { "v": "1.6", "date": "2026-11-15", "title": "大屏适配", "summary": "1900×1080 大横屏棋盘铺满，键位与顶栏放大" },
-    { "v": "1.1", "date": "2026-11-15", "title": "把安装包发给对方", "summary": "房主可直推安装包（Wi-Fi 落地页或蓝牙）" }
+    {
+      "v": "1.18",
+      "date": "2026-11-16",
+      "title": "砍掉多余的",
+      "summary": "删字母块、债务重组改每局 -15%、常驻与计时合并、多人面板收拢、记录只留 15 条"
+    },
+    {
+      "v": "1.17",
+      "date": "2026-11-16",
+      "title": "键位再大一点 · 更新引导",
+      "summary": "方向键再放大并往中间收（手机约53/平板66/大屏96）；版本页新增怎么更新引导"
+    },
+    {
+      "v": "1.16",
+      "date": "2026-11-16",
+      "title": "键位放大一档",
+      "summary": "所有模式方向键/暂存键放大一点（手机48/平板56/大屏86），自动复核不压棋盘"
+    },
+    {
+      "v": "1.15",
+      "date": "2026-11-16",
+      "title": "复制里补上下文",
+      "summary": "复制内容增加上一版和术语解释，模型可回答与上一版的差异"
+    },
+    {
+      "v": "1.14",
+      "date": "2026-11-16",
+      "title": "复制内容适合发给 AI",
+      "summary": "结构化文本：先说明游戏是什么，字段一行一个，更新记录分小节"
+    },
+    {
+      "v": "1.13",
+      "date": "2026-11-16",
+      "title": "一键复制这一版",
+      "summary": "版本页一键复制当前版本说明"
+    },
+    {
+      "v": "1.12",
+      "date": "2026-11-16",
+      "title": "复制改走系统剪贴板",
+      "summary": "APK 1.4 加入系统剪贴板桥，复制不再依赖 WebView API"
+    },
+    {
+      "v": "1.10",
+      "date": "2026-11-16",
+      "title": "性能档",
+      "summary": "按帧时间自动切换高/中/低画质"
+    },
+    {
+      "v": "1.9",
+      "date": "2026-11-16",
+      "title": "转场归难度",
+      "summary": "场地旋转并入难度：轻松不转，普通/困难每 15 秒转 90°"
+    },
+    {
+      "v": "1.8",
+      "date": "2026-11-16",
+      "title": "入口收拢",
+      "summary": "存档三档收成一个档位切换，设置 6 个入口并为 4 个"
+    }
   ],
   "update_mechanism": {
     "web_bundle": "启动时自动检查 update.json，下载 web-*.zip，校验 sha256 后重启生效",
