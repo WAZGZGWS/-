@@ -1,7 +1,7 @@
 # 合体债（FUSION DEBT） · 安卓方块游戏 · 更新源
 
 > 这份文件是给**人**和**大模型**看的：读完能说清这是什么游戏、玩法亮点、最近改了什么。
-> 只想要完整版本流水账 → [CHANGELOG.md](CHANGELOG.md)。想要结构化数据 → [summary.json](summary.json)。
+> 只想快速总结？粘 [digest.md](digest.md)（约 2KB）。完整版本流水账 → [CHANGELOG.md](CHANGELOG.md)。结构化数据 → [summary.json](summary.json)。
 
 **一句话**：一个 10×10 的俄罗斯方块变体——消灭的行数会变成从底下顶回来的「合体块」，还不起的债带到下一局，越玩越难、还清才翻盘。
 
