@@ -6,7 +6,7 @@
 - 当前网页包：**1.12 / web 104**
 - 更新清单：`update.json`
 - 更新包：`web-104.zip`
-- 安装包：`heti-debt-latest.apk` = **v1.4（versionCode 57）**，这一版加了系统剪贴板接口；壳不参与自动更新，网页包会自己升级
+- 安装包：`heti-debt-latest.apk` = **v1.4（versionCode 57，202,247 字节）**，这一版加了系统剪贴板接口；壳不参与自动更新，网页包会自己升级
 
 ## 玩法亮点
 
@@ -107,17 +107,17 @@
 
 ## 怎么装
 
-**从 v0.6.5 起才会自动更新。v0.5 及更早版本没有内置更新器，必须手动装一次最新 APK（当前 v0.9.22）。**
+**从 v0.6.5 起才会自动更新。v0.5 及更早版本没有内置更新器，必须手动装一次最新 APK（当前 v1.4）。**
 
 固定下载地址（永远指向最新版，转发这个链接就行）：
 
-- 镜像：https://gh-proxy.com/https://raw.githubusercontent.com/WAZGZGWS/-/main/heti-debt-latest.apk
-- 备用：https://ghproxy.net/https://raw.githubusercontent.com/WAZGZGWS/-/main/heti-debt-latest.apk
-- 原始：https://github.com/WAZGZGWS/-/raw/main/heti-debt-latest.apk
+- 镜像：https://gh-proxy.com/https://raw.githubusercontent.com/WAZGZGWS/-/main/heti-debt-latest.apk?v=57
+- 备用：https://ghproxy.net/https://raw.githubusercontent.com/WAZGZGWS/-/main/heti-debt-latest.apk?v=57
+- 原始：https://github.com/WAZGZGWS/-/raw/main/heti-debt-latest.apk?v=57
 
 步骤：
 
-1. 手机浏览器打开上面任意一个，下载 `heti-debt-latest.apk`（当前 v0.9.22，173,575 字节）；
+1. 手机浏览器打开上面任意一个，下载 `heti-debt-latest.apk`（当前 v1.4，202,247 字节）；
 2. 点开安装，第一次要允许「安装未知应用 / 未知来源」；
 3. **从 v0.9.16 起换成了 release 签名**：之前装过 v0.9.15 或更早 debug 包的话，系统会提示「签名不一致」，需要先在「更多 → 存档管理」导出存档，再卸载旧包、装新包；从 0.9.16 以后可以直接覆盖。
 4. 装完打开，约 1 秒后会自动检查并更新到最新网页包；以后不用再管安装包。
