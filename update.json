@@ -1,11 +1,11 @@
 {
   "app": "heti-debt",
-  "version": "1.12",
-  "web": 105,
+  "version": "1.13",
+  "web": 106,
   "notes": [],
   "zip": {
-    "path": "web-105.zip",
-    "sha256": "237ac7163dd451acd1aa6d9e9dd76a8346a5a2392bb84973b09e5b355889ebae",
-    "size": 156585
+    "path": "web-106.zip",
+    "sha256": "8232c7652767fd507e11b57b2d15a2b85b7960256c1f32f913865e3e8923d59f",
+    "size": 157530
   }
 }
