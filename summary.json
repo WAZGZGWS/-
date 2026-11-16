@@ -83,7 +83,7 @@
   "docs": {
     "highlights_and_updates": "README.md",
     "full_changelog": "CHANGELOG.md",
-    "structured_summary": "summary.json"
+    "structured_summary": "summary.json",`n    "quick_digest": "digest.md"
   },
   "note_for_llm": "如果被要求总结玩法或更新：玩法看 highlights 与 core_loop，更新看 recent_versions 或 CHANGELOG.md；web N 是网页包序号，不是游戏版本号。"
 }
