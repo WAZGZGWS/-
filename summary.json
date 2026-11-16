@@ -18,8 +18,8 @@
     "ads": false
   },
   "versions": {
-    "game": "1.25",
-    "web_bundle": 129,
+    "game": "1.26",
+    "web_bundle": 130,
     "apk_shell": "1.5",
     "apk_version_code": 58,
     "apk_bytes": 181767
