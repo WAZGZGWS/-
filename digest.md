@@ -1,4 +1,4 @@
-# 合体债 FUSION DEBT · 给 AI 的速读版（约 2KB）
+# 合体债 FUSION DEBT · 给 AI 的速读版（约 3KB）
 
 > 想让人/模型快速懂这个游戏和最近改了什么，把这一份整段粘过去就够。完整版见 [README.md](README.md)，逐版细节见 [CHANGELOG.md](CHANGELOG.md)。
 
