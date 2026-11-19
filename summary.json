@@ -18,11 +18,11 @@
     "ads": false
   },
   "versions": {
-    "game": "1.51",
-    "web_bundle": 155,
+    "game": "1.52",
+    "web_bundle": 156,
     "apk_shell": "1.8",
     "apk_version_code": 61,
-    "apk_bytes": 194055
+    "apk_bytes": 185863
   },
   "core_loop": [
     "10×10 棋盘，消行得分",
