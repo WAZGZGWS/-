@@ -2,6 +2,10 @@
 
 > 由游戏内 `version.js` 生成；想快速了解「这游戏是什么、最近改了什么」，先看 [README.md](README.md)。
 
+## v3.1 — 2026-11-22 — Bluetooth retries by itself
+
+配对好了还是加不进来：客机原来只重试 3 次（约 3 秒）就放弃，对方慢半拍就永远连不上。现在重试 8 次、连接卡住 12 秒也算失败重来；房主/客机的文字说清楚谁点「我开房」，已配对列表把上次那台放最前。
+
 ## v3.0 — 2026-11-22 — Multiplayer starts again
 
 修掉多人开局里引用已删变量 matchTier 的 ReferenceError（Wi-Fi/蓝牙点开始都没反应），并把联机入口简化为两个按钮：同一 Wi-Fi、蓝牙。
