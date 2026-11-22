@@ -18,10 +18,10 @@
     "ads": false
   },
   "versions": {
-    "game": "2.6",
-    "web_bundle": 183,
-    "apk_shell": "2.0",
-    "apk_version_code": 63,
+    "game": "2.7",
+    "web_bundle": 184,
+    "apk_shell": "2.1",
+    "apk_version_code": 64,
     "apk_bytes": 206343
   },
   "core_loop": [
