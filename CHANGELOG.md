@@ -2,6 +2,10 @@
 
 > 由游戏内 `version.js` 生成；想快速了解「这游戏是什么、最近改了什么」，先看 [README.md](README.md)。
 
+## v3.0 — 2026-11-22 — Multiplayer starts again
+
+修掉多人开局里引用已删变量 matchTier 的 ReferenceError（Wi-Fi/蓝牙点开始都没反应），并把联机入口简化为两个按钮：同一 Wi-Fi、蓝牙。
+
 ## v2.9 — 2026-11-22 — Centred in both orientations
 
 所有界面重新按横竖屏适配：横屏时内容列放宽到 780px、按钮 480px，卡片最高 88vh 并可滚动；竖屏时侧边抽屉最多占 92vw；矮屏（高度 ≤560px，比如横着的平板）按钮收到 46px、标题和间距一起收紧，避免内容顶到外面。所有屏仍然水平垂直双居中，超长内容才滚动。
