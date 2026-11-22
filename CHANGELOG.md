@@ -2,6 +2,10 @@
 
 > 由游戏内 `version.js` 生成；想快速了解「这游戏是什么、最近改了什么」，先看 [README.md](README.md)。
 
+## v2.7 — 2026-11-22 — Updates stop timing out
+
+你联网却更新失败的真因：镜像 ghproxy.net 冷启动要 17~29 秒，而壳里的超时是连接 3 秒 / 读取 6 秒 —— 三个源全被判超时；gh-proxy 还会直接 403。改法：① 壳的超时放宽到连接 8 秒 / 读取 20 秒；② 默认更新源换成 raw.githubusercontent 直连（本机实测 0.5 秒），ghproxy.net 做备用，403 的 gh-proxy 删掉；③ 安装包链接也默认给直连。这一版壳升到 2.1（versionCode 64），装一次就恢复正常更新。
+
 ## v2.6 — 2026-11-22 — Default mirror is ghproxy.net now
 
 gh-proxy.com 从今天上午开始整站回 403，导致更新和安装包链接都打不开。现在默认更新源和安装包下载地址都改成 ghproxy.net（gh-proxy 留作备用源，第二顺位）。
