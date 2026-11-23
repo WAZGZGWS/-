@@ -1,7 +1,7 @@
 {
   "app": "heti-debt",
-  "version": "3.2",
-  "web": 189,
+  "version": "3.3",
+  "web": 190,
   "notes": [],
   "files": [
     "start.html",
@@ -17,12 +17,12 @@
     "game.js"
   ],
   "hashes": {
-    "start.html": "b823ad8952f111153e63cadfeb626beb09d20fdf510b80c3e8a65564d8ab529e",
+    "start.html": "78e5fbb3d91446e7678ea1f134740debcb3aad997ad4c0b4527719346a8481de",
     "cues.js": "cc6dcfcd7846af789b5df8ac9770d28669702079536ceb254268704410e11387",
     "engine.js": "638bb8113c51b71d4b01e3c69749eba145a1462c786e7e10dbc66b9799a71de8",
     "device.js": "f0beb4f506013f685181d401e26d50dda21d6dd09c83e045db6311e0a11a89aa",
     "perf.js": "ec8b8967ee69984688798e7e45b7766ae9c379c6a743bdbf7eb6cfc5c2867e3e",
-    "version.js": "f7f80eae5b999f49c9d61f7649f5ad6264b44c847d75d75e0216a18a9896613e",
+    "version.js": "e859701c6ee207867780c6d309d2a65c735bdc1e0c7384d30a2d3aaec71f4a75",
     "update.js": "1c4151743ff8e2baa47531cc979eb7452ec1ec428f559ce36dea24bcb856a1a5",
     "tutorial.js": "a9a890db6e84ac2b4368ae9998c25821b71681ad4553679627c5f1f2a03f20e2",
     "net.js": "7254bd28f9a04268d315abb7afd22216119e178a183ea481e1e4564a030139f1",
@@ -30,18 +30,18 @@
     "game.js": "62b6e25c82ba10d9c495a0de20df7ee772311ef1672197a854725372dbacb227"
   },
   "zip": {
-    "path": "web-189.zip",
-    "sha256": "a36d731d287989c378db7044933dcbafd64deabf5e921654db4fa917acbadcf9",
-    "size": 163891
+    "path": "web-190.zip",
+    "sha256": "0778b95cada0edbbbc761e55a318f8cc0b5705f4f785e6282f2d525606d6b942",
+    "size": 164296
   },
   "diff": {
-    "path": "web-189-diff.zip",
-    "sha256": "1702790f4496d17153752c81964aa7a92cf80602ee7d46abea9fc4f1a241dae7",
-    "size": 65325,
-    "from": 188,
+    "path": "web-190-diff.zip",
+    "sha256": "6c451435f6fdc8ae489398d421114881e2f8de25e992d2d1062b48ad42515ca8",
+    "size": 68114,
+    "from": 189,
     "files": [
+      "start.html",
       "version.js",
-      "game.js",
       "web.json"
     ]
   }
