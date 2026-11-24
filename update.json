@@ -1,7 +1,7 @@
 {
   "app": "heti-debt",
-  "version": "3.5",
-  "web": 192,
+  "version": "3.9",
+  "web": 196,
   "notes": [],
   "files": [
     "start.html",
@@ -17,29 +17,30 @@
     "game.js"
   ],
   "hashes": {
-    "start.html": "1189123d8e3068652e58c1abc4af056219be9195c2f18c8582417629e21e889b",
+    "start.html": "78b749e49c5f89f6a9ee362d2150057b344fe25049315aab31caf688eae9949a",
     "cues.js": "cc6dcfcd7846af789b5df8ac9770d28669702079536ceb254268704410e11387",
     "engine.js": "638bb8113c51b71d4b01e3c69749eba145a1462c786e7e10dbc66b9799a71de8",
     "device.js": "f0beb4f506013f685181d401e26d50dda21d6dd09c83e045db6311e0a11a89aa",
     "perf.js": "ec8b8967ee69984688798e7e45b7766ae9c379c6a743bdbf7eb6cfc5c2867e3e",
-    "version.js": "da3503668ee0e10860cdf7a7bd918d7eeaf1a4413c362229deb72fb2b0a778fd",
+    "version.js": "bdd5d98f3b9c9ca5f4df0cea1f9d401b38d68515089bcecf2bc612fe7a2f1205",
     "update.js": "1c4151743ff8e2baa47531cc979eb7452ec1ec428f559ce36dea24bcb856a1a5",
     "tutorial.js": "a9a890db6e84ac2b4368ae9998c25821b71681ad4553679627c5f1f2a03f20e2",
     "net.js": "7254bd28f9a04268d315abb7afd22216119e178a183ea481e1e4564a030139f1",
-    "ai.js": "a2979c4f30d376ac02468d69790406e0821acfe02772cbe0cf3cab097b2ca7ef",
-    "game.js": "62b6e25c82ba10d9c495a0de20df7ee772311ef1672197a854725372dbacb227"
+    "ai.js": "80cad8b87b1a835fc8e9aff4bfb4dcb175061568d3636081d3a3419d295050f1",
+    "game.js": "09c06e3106a6103d53f984f60f3a435abf84b9594f50a8212e5a3a074e6a2850"
   },
   "zip": {
-    "path": "web-192.zip",
-    "sha256": "31a8471e5e0dc6d9e8a0fc6cde43774f97e4b064b0c7cd77e36fe9825a0304cc",
-    "size": 164606
+    "path": "web-196.zip",
+    "sha256": "050487c524e46de621394c0d47a63d1d86b383b844fce05ea8b6080a41ac620c",
+    "size": 168978
   },
   "diff": {
-    "path": "web-192-diff.zip",
-    "sha256": "82cfb4b6e886d1c5415058b94cef60729fafb27daf8b6f3a9c2ab38579a2fda8",
-    "size": 17854,
-    "from": 191,
+    "path": "web-196-diff.zip",
+    "sha256": "a934b3b4cb795d61335dba8c2635fea2401d832af4905d502300e4e2f2aaf9c0",
+    "size": 71433,
+    "from": 195,
     "files": [
+      "start.html",
       "version.js",
       "web.json"
     ]
