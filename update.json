@@ -1,7 +1,7 @@
 {
   "app": "heti-debt",
-  "version": "5.2",
-  "web": 209,
+  "version": "5.3",
+  "web": 210,
   "notes": [],
   "files": [
     "start.html",
@@ -20,31 +20,31 @@
   "hashes": {
     "start.html": "4a392134f30e9dd3190f44ef0f1b575fb77dd1a95f2e700708a7a2bbc14642dd",
     "cues.js": "62770221ee8d5cd41d46f89e7011a089bb3e8990ac85a2500d06e91b93117f6b",
-    "theme.js": "b8d1e72cb3329503380250b5b636e78d1eadae326d4113aa35e2714ec408df3b",
+    "theme.js": "616938716e09e8f4447a5b32181d5a6f556311816ba4c1594330fde654d940f5",
     "engine.js": "638bb8113c51b71d4b01e3c69749eba145a1462c786e7e10dbc66b9799a71de8",
     "device.js": "f0beb4f506013f685181d401e26d50dda21d6dd09c83e045db6311e0a11a89aa",
     "perf.js": "ec8b8967ee69984688798e7e45b7766ae9c379c6a743bdbf7eb6cfc5c2867e3e",
-    "version.js": "ece723f42c10bc30a05345df9e3c3aea89f27604b1f25c36ce7b5ecd5b056856",
+    "version.js": "ce653820973f4b5a08dc31601cca5ee7dd929ee4f910bcc1bf0906e394469d95",
     "update.js": "1c4151743ff8e2baa47531cc979eb7452ec1ec428f559ce36dea24bcb856a1a5",
     "tutorial.js": "391b4d9c3df35268089112aa33288685b63e6d15b9d390d094a33e3774c04b4c",
     "net.js": "7254bd28f9a04268d315abb7afd22216119e178a183ea481e1e4564a030139f1",
     "ai.js": "f6b58dd8848299100b5858560eccc56cf53fe8093da76ee5b4e0d2a3eac92c4e",
-    "game.js": "303f5577346a107b509eb13506ba2abe14eef202d122f4e1f898f2224646318b"
+    "game.js": "6f6f8b36d491af04f632719e1afab9559e024fb118aa431d9e4eaba806005f89"
   },
   "zip": {
-    "path": "web-209.zip",
-    "sha256": "118a139caef320f371343548abe6f951e6bc64fa7877a9a574a46858a3e06a68",
-    "size": 190780
+    "path": "web-210.zip",
+    "sha256": "1e85e159ba89b1668591c22903127c3b8acc1d2e2f7c3370b5e09d0ef38a3b89",
+    "size": 192866
   },
   "diff": {
-    "path": "web-209-diff.zip",
-    "sha256": "a76e12ccc997b0f96b21776182a59171a33c08f90d0d323ccdf2d0b535669d11",
-    "size": 90414,
-    "from": 208,
+    "path": "web-210-diff.zip",
+    "sha256": "7f8801c04b65c5520212a361a20c7b0c1c1fb15f6495c9740c395b2770a09f64",
+    "size": 90614,
+    "from": 209,
     "files": [
-      "start.html",
       "theme.js",
       "version.js",
+      "game.js",
       "web.json"
     ]
   }
